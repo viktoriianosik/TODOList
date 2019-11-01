@@ -1,0 +1,26 @@
+.option-item {
+    align-items: center;
+    border-bottom: 2px solid #000000;
+}
+
+.option-item:last-child {
+    border-bottom: none;
+}
+
+.option-item__button {
+    display: block;
+    width: 80px;
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color: #dadada;
+    border: none;
+}
+
+.option-item__button:hover {
+    background-color: #ffffff;
+}
+
+.option-item__button:focus {
+    background-color: #545454;
+}
+

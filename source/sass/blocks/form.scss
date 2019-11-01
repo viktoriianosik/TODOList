@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+} 
+
+.form__select {
+    position: relative;
+    appearance: none;
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    background: url(../image/arrow.png) no-repeat 96% 50%;
+    background-color: #ffffff;
+    border-radius: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form__select option:nth-of-type(1) {
+    margin-top: 15px;
+}

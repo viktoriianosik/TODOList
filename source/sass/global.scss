@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000000;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/oswaldregular.woff") format("woff"),
+        url("../fonts/oswaldregular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+  
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+  
+    -webkit-clip-path: inset(100%);
+  
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
